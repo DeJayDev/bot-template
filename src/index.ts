@@ -31,4 +31,4 @@ client.once("ready", async () => {
 
 client.login(process.env.TOKEN)
 
-export { client as Adapto, db }
+export { client as Bot, db }
