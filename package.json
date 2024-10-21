@@ -1,0 +1,35 @@
+{
+    "name": "bot",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "dist/src/index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsx --watch src/index.ts",
+        "start": "tsx src/index.ts",
+        "migrate": "drizzle-kit migrate"
+    },
+    "dependencies": {
+        "@paralleldrive/cuid2": "^2.2.2",
+        "bufferutil": "^4.0.8",
+        "discord.js": "^14.16.3",
+        "dotenv": "^16.4.5",
+        "drizzle-orm": "^0.35.2",
+        "pino": "^9.5.0",
+        "pino-colada": "^2.2.2",
+        "pino-pretty": "^11.3.0",
+        "slashasaurus": "^0.12.2",
+        "tsx": "^4.19.1",
+        "utf-8-validate": "^6.0.4",
+        "zlib-sync": "^0.1.9"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.9.4",
+        "@types/node": "^22.7.7",
+        "@types/pg": "^8.11.10",
+        "drizzle-kit": "^0.26.2",
+        "pg": "^8.13.0",
+        "typescript": "^5.6.3"
+    }
+}
