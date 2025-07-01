@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1750819521794,
+      "tag": "0000_stormy_prism",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1750823143625,
+      "tag": "0001_add-user-tokens",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1750823637672,
+      "tag": "0002_add-indexes",
+      "breakpoints": true
+    }
+  ]
+}
