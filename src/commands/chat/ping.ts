@@ -1,10 +1,11 @@
 import type { ChatInputCommandInteraction } from "discord.js"
+import { MessageFlags } from "discord.js"
 import { SlashCommand } from "slashasaurus"
 
 function run(interaction: ChatInputCommandInteraction) {
     interaction.reply({
         content: "Pong!",
-        ephemeral: true
+        flags: MessageFlags.Ephemeral
     })
 }
 

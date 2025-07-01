@@ -1,8 +1,6 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "organizeImports": {
-    "enabled": true
-  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {
     "enabled": true,
     "rules": {
@@ -16,6 +14,9 @@
       },
       "nursery": {
         "useSortedClasses": "warn"
+      },
+      "correctness": {
+        "useParseIntRadix": "off"
       }
     }
   },
@@ -23,7 +24,7 @@
     "enabled": true,
     "lineWidth": 256,
     "indentStyle": "space",
-    "indentWidth": 4
+    "indentWidth": 2
   },
   "javascript": {
     "formatter": {
